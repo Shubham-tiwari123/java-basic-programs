@@ -26,11 +26,27 @@ public class Searching{
     }
     
     public void binarySearch(){
+        int left,right,mid;
         System.out.print("\nEnter 5 elements:-");
         for(int i=0;i<5;i++)
             A[i] = sc.nextInt();
         System.out.print("\nEnter the element to search:-");
         num = sc.nextInt();
-        temp = A[0];
+        left=0;
+        right=5;
+        while(left<=right){
+            mid = left+(right-left)/2;
+            
+            if(A[mid]==num){
+                mid =mid+1;
+                System.out.println("\nElement found at:"+mid);
+                return;
+            }
+            else if(A[mid]<num){
+                left=mid+1;
+            }
+            else
+                right=mid-1;
+        }
     }
 }
