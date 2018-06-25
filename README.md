@@ -49,7 +49,11 @@
 
 			Write a java program to perform linear search in java.	
 			
-	8)	Find Largest Number in an Array
+	8)	Binary Search
+
+			Write a java program to perform binary search in java.
+			
+	9)	Find Largest Number in an Array
 
 			Write a java program to find largest number in an array.
 
@@ -57,7 +61,7 @@
 
 			Output: 6
 			
-	9)	Find 2nd Largest Number in an Array
+	10)	Find 2nd Largest Number in an Array
 
 			Write a java program to find 2nd largest number in an array.
 
@@ -65,7 +69,7 @@
 
 			Output: 5
 			
-	10)	Find 3rd Largest Number in an Array
+	11)	Find 3rd Largest Number in an Array
 
 			Write a java program to find 3rd largest number in an array.
 
@@ -73,7 +77,7 @@
 
 			Output: 3
 			
-	11)	Find Smallest Number in an Array
+	12)	Find Smallest Number in an Array
 
 			Write a java program to find smallest number in an array.
 
@@ -81,7 +85,7 @@
 
 			Output: 1
 			
-	12)	Find 2nd Smallest Number in an Array
+	13)	Find 2nd Smallest Number in an Array
 
 			Write a java program to find 2nd smallest number in an array.
 
@@ -89,7 +93,7 @@
 
 			Output: 2	
 			
-	13)	Add Two Matrices
+	14)	Add Two Matrices
 
 			Write a java program to add two matrices.
 
@@ -111,7 +115,7 @@
 			4 4 4
 			6 6 6
 			
-	14)	Multiply Two Matrices
+	15)	Multiply Two Matrices
 
 			Write a java program to multiply two matrices.
 
@@ -133,7 +137,7 @@
 			12 12 12
 			18 18 18
 			
-	15)	Print Odd and Even Number from an Array
+	16)	Print Odd and Even Number from an Array
 
 			Write a java program to print odd and even number from an array.
 
@@ -150,7 +154,7 @@
 			6
 			2
 			
-	16)	Transpose matrix
+	17)	Transpose matrix
 
 			Write a java program to transpose a matrix.
 
