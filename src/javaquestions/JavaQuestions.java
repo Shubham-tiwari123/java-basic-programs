@@ -8,6 +8,7 @@ public class JavaQuestions {
         q.palindrome();
         q.factorial();
         q.armstrongNumber();
+        q.fibonacciSeries();
        
         SortQuestions s = new SortQuestions();
         s.bubbleSort();
@@ -27,5 +28,6 @@ public class JavaQuestions {
         a.multiplyMatrix();
         a.oddOrEven();
         a.transposeMatrix();
+        a.removeDuplicate();
     }
 }
