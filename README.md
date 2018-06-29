@@ -169,6 +169,30 @@
 			3 4 4 
 			4 3 5 
 			
+	18)	 Fibonacci series
+
+			Write a java program to print fibonacci series without using recursion and 				using recursion.
+
+			Input: 10
+
+			Output: 0 1 1 2 3 5 8 13 21 34
+			
+	19)	Insertion Sort
+
+			Write a java program to sort an array elements using insertion sort algorithm.
+
+			Input: 18 9 33 4 84 32
+
+			Output: 4 9 18 32 33 84
+			
+	20)	 Remove Duplicate Element in an Array
+
+			Write a java program to remove duplicate element in an array.
+
+			Input: 10,20,20,30,30,40,50,50
+
+			Output: 10 20 30 40 50 
+			
 			
 
 
