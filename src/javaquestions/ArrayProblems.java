@@ -11,6 +11,7 @@ public class ArrayProblems {
     private int A[] = new int[5];
     private int B[] = new int[5];
     private int C[] = new int[5];
+    private int D[] = new int[10];
     private int mat1[][] = new int[3][3];
     private int mat2[][] = new int[3][3];
     private int result[][] = new int[3][3];
@@ -224,5 +225,26 @@ public class ArrayProblems {
                 System.out.print(result[i][j]+" ");
             }
         }
+    }
+    
+    public void removeDuplicate(){
+        int[] temp = new int[10];  
+        System.out.print("\nEnter 10 elements:-");
+        for(int i=0;i<10;i++)
+            D[i] = sc.nextInt();
+        int j=0;
+        for (int i=0; i<10; i++){  
+            if (D[i] != D[i+1]){  
+                temp[j++] = D[i];  
+            }  
+        }
+        for (int i=0; i<j; i++){  
+            D[i] = temp[i];  
+        }
+        System.out.print("\nPrinting:-");
+        for(int i=0;i<j;i++){
+            System.out.print(D[j]+" ");
+        }
+        
     }
 }
